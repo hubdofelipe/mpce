@@ -5,29 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Index Samurai</title>
+    <title>MISSÃO MPCE - MENTORIA PERSONALIZADA</title>
 
     <!-- Favicons -->
-    <link rel="icon" type="image/png" href="assets/ico/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="assets/ico/favicon-16x16.png" sizes="16x16" />
-
-    <!-- Apple Touch Icon-->
-    <link rel="apple-touch-icon" href="assets/ico/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/ico/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="assets/ico/favicon-32x32.png">
-
-    <!-- Windows Touch Icon -->
-    <meta name="application-name" content="assets/ico/favicon-32x32.png"/>
-    <meta name="msapplication-TileColor" content=assets/ico/favicon-32x32.png"/>
-    <meta name="msapplication-square70x70logo" content="assets/ico/favicon-32x32.png"/>
-    <meta name="msapplication-square150x150logo" content="assets/ico/favicon-32x32.png"/>
-    <meta name="msapplication-wide310x150logo" content="assets/ico/favicon-32x32.png"/>
-    <meta name="msapplication-square310x310logo" content="assets/ico/favicon-32x32.png"/>
-
-    <!-- Android Touch Icon -->
-    <link rel="icon" sizes="192x192" href="assets/ico/favicon-32x32.png">
-    <link rel="icon" sizes="128x128" href="assets/ico/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Misc -->
     <script
@@ -54,7 +50,7 @@
         <div class="desktop-menu">
             <div class="container">
                 <h1 class="main-header__logo-container">
-                    <span class="hide-text">Index Samurai</span>
+                    <span class="hide-text">MISSÃO MPCE</span>
                     <a href="/">
                         <img class="main-header__logo" src="./assets/images/index-logo.png" alt="">
                     </a>
@@ -74,7 +70,7 @@
         </div>
         <div class="mobile-menu">
             <h1 class="mobile-logo">
-                <span class="hide-text">Index Samurai</span>
+                <span class="hide-text">MISSÃO MPCE</span>
                 <a href="/">
                     <img class="mobile-logo-img" src="./assets/images/index-logo.png" alt="">
                 </a>
