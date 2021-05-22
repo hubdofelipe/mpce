@@ -1,0 +1,160 @@
+.input-item{
+    width: 100%;
+    margin-bottom: 20px;
+    @include media(get-bp(desktop)){
+        width: 40%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+    }
+}
+
+.form__title{
+    font-family: $font-family-secondary;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 30px;
+    @include media(get-bp(desktop)){
+        margin-bottom: 60px;
+        text-align: left;
+    }
+}
+
+.form{
+    width: 100%;
+    margin-top: 40px;
+    @include media(get-bp(desktop)){
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    textarea{
+        width: 100%;
+        resize: none;
+        border: 0;
+        outline: none;
+        border-bottom: 1px solid get-color(form-border);
+        height: 144px;
+        &:focus{
+            border: 0;
+            border-bottom: 1px solid get-color(secondary);
+            background-color: get-color(form-color);
+        }
+    }
+}
+
+.form-box{
+    font-size: 12px;
+    margin-bottom: 20px;
+    @include media(get-bp(desktop)){
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        margin-right: -10%;
+    }
+    input{
+        width: 100%;
+        display: block;
+        border: 0;
+        border-bottom: 1px solid get-color(form-border);
+        margin-bottom: 10px;
+        outline: none;
+        margin-top: 10px;
+        padding-bottom: 13px;
+        &:focus{
+            border: 0;
+            border-bottom: 1px solid get-color(secondary);
+            background-color: get-color(form-color);
+        }
+    }
+    select{
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid get-color(form-border);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+.form-attach{
+    font-size: 12px;
+    margin-bottom: 14px;
+    margin-top: 30px;
+    @include media(get-bp(desktop)){
+        margin-top: 40px;
+    }
+    .form-attach__title{
+        margin-bottom: 14px;
+    }
+    .form-attach__item{
+        display: flex;
+        color: get-color(secondary);
+        margin-bottom: 14px;
+    }
+    .item__text{
+        font-weight: 700;
+        align-self: center;
+    }
+    .item__icon{
+        color: get-color(primary);
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 30px;
+        margin-right: 16px;
+        display: none;
+        cursor: pointer;
+    }
+}
+
+.form__send{
+    border: 0;
+    margin-top: 20px;
+    width: 178px;
+    height: 40px;
+    background-color: get-color(primary);
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+    @include media(get-bp(desktop)){
+        margin-top: 0;
+    }
+}
+
+.submit__label{
+    display: flex;
+    flex-wrap: wrap;
+    width: 178px;
+    height: 40px;
+    text-align: left;
+    border: 1px solid get-color(grey-light);
+    &:hover{
+        cursor: pointer;
+    }
+    @include media(get-bp(desktop)){
+        margin-bottom: 10px;
+        width: 178px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    p{
+        align-self: center;
+        display:block;
+        font-weight: bold;
+        margin-left: 20px;
+        @include media(get-bp(desktop)){
+        }
+    }
+    input{
+        display: none;
+        width: 0;
+        height: 0;
+    }
+}
+
+.form-submit{
+    @include media(get-bp(desktop)){
+        display: flex;
+        margin-top: 40px;  
+    }
+}

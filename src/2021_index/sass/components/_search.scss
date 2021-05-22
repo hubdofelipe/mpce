@@ -1,0 +1,40 @@
+.search-container{
+    text-align: right;
+    color: get-color(light);
+    margin-left: 20px;
+    .border-container{
+        display: inline-flex;
+        border: 1px solid get-color(light);
+        padding: 5px 7px;
+        border-radius: 25px;
+    }
+    .icon{
+        cursor: pointer;
+        .submit{
+            width: 0;
+            height: 0;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    #searchInput{
+        border: 0;
+        background-color: transparent;
+        color: get-color(light);
+        font-size: 14px;
+        outline: none;
+        transition: 0.4s;
+        width: 0px;
+        &.active{
+            width: 150px;
+            margin-right: 10px;
+        }
+        &::placeholder{
+            color: get-color(light);
+        }
+    }
+
+    .submit{
+        display: none;
+    }
+}

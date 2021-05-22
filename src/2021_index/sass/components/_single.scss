@@ -1,0 +1,105 @@
+.single{
+    padding: 20px;
+}
+
+.single__box{
+    background-color: get-color(light);
+    @media (min-width: 1200px){
+        width: 900px;
+        margin: auto;
+        padding: 20px;
+        padding-top: 50px;
+    }
+}
+
+
+.single__header{
+    .single__category{
+        color: get-color(primary);
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .single__title{
+        font-weight: bold;
+        text-align: center;
+        font-size: 26px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+        @media (min-width: 1200px){
+            font-size: 34px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+    .single__share-row{
+        text-align: center;
+        @media (min-width: 1200px){
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .share-row__date{
+            color: rgba(black, 0.38);
+            font-weight: bold;
+            font-size: 12px;
+            text-align: center;
+            @media (min-width: 1200px){
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+.single-content{
+    width: 100%;
+    margin-top: 40px;
+    figure{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 50px;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+
+        figcaption{
+            font-weight: bold;
+            font-size: 12px;
+            margin-top: 15px;
+            color: rgba(black, 0.6);
+        }
+
+    }
+    p{
+        font-weight: 500;
+        color: rgba(black, 0.8);
+    }
+    .wp-block-quote, blockquote{
+        border-left: 3px solid get-color(primary);
+        padding: 0;
+        margin: 0;
+        padding: 20px 40px;
+        margin-bottom: 20px;
+    }
+
+    .wp-block-pullquote{
+        border-top: 3px solid get-color(primary);
+        border-bottom: 3px solid get-color(primary);
+    }
+}
+
+.highlighted-text{
+    background-image: linear-gradient(90deg,rgba(255,255,255,0) 50%, rgba(get-color(primary), 0.2) 0);
+    position: relative;
+    background-size: 200%;
+    background-position: 0%;
+    transition: 1.8s;
+    &.active{
+        background-position: -100%;
+    }
+}

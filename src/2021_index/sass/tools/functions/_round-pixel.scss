@@ -1,0 +1,7 @@
+@function round-pixel($value) {
+    @if unit($value) == "px" {
+        @return round($value);
+    }
+
+    @return $value;
+}

@@ -1,0 +1,24 @@
+.breadcrumb__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 10px 0;
+
+    @include media(get-bp(desktop)){
+        margin: 60px 0 30px 0;
+    }
+
+    li{
+        font-size: 12px;
+        font-weight: 600;
+        color: get-color(grey-light);
+
+        &:first-child::before{
+            display: none;
+        }
+        
+        &:before{
+            content: "/";
+            margin: 10px;
+        }
+    }
+}

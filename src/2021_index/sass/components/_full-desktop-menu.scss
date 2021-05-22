@@ -1,0 +1,40 @@
+.full-desktop-menu{
+    width: 100%;
+    padding: 20px;
+    background-color: get-color(primary);
+    position: fixed;
+    z-index: 50;
+    top: 101px;
+    right: 0px;
+    transform: translateY(-100%);
+    transition: 400ms;
+    display: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @include media(get-bp(desktop)){
+        display: block;
+    }
+    &.is-active{
+        transform: translateY(0);
+    }
+    .menu-item{
+        margin-right: 70px;
+        margin-bottom: 20px;
+        a{
+            font-size: 18px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .menu-item__submenu{
+        margin-top: 10px;
+        a{
+            font-size: 14px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

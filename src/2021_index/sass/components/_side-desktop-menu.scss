@@ -1,0 +1,40 @@
+.side-desktop-menu{
+    width: 300px;
+    padding: 20px;
+    background-color: get-color(primary);
+    position: fixed;
+    top: 101px;
+    right: 0px;
+    transform: translateX(100%);
+    transition: 400ms;
+    display: none;
+    z-index: 50;
+    @include media(get-bp(desktop)){
+        display: block;
+    }
+    &.is-active{
+        transform: translateX(0);
+    }
+    .menu-container__listing{
+        display: block;
+    }
+
+    .menu-item{
+        margin-bottom: 20px;
+        a{
+            font-size: 18px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .menu-item__submenu{
+        a{
+            font-size: 14px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

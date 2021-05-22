@@ -1,0 +1,172 @@
+.newsletter{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: get-color(light);
+    @include media(get-bp(desktop)){
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+        align-items: center;
+    }
+    .newsletter__title{
+        font-size: 28px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        line-height: 1;
+        border-bottom: 1px solid rgba(get-color(grey), 0.1);;
+        @include media(get-bp(desktop)){
+            padding-bottom: 0;
+            border-bottom: 0;
+            margin-bottom: 0;
+            margin-right: 130px;
+        }
+    }
+    .newsletter__form{
+        @include media(get-bp(desktop)){
+            flex: 1;
+            border-left: 1px solid rgba(get-color(grey), 0.1);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    .newsletter__form-column{
+        @include media(get-bp(desktop)){
+            flex: 1;
+        }
+    }
+
+    .newsletter__input-text{
+        width: 100%;
+        border: 0;
+        padding: 0;
+        font-size: 20px;
+        height: 40px;
+        outline: none;
+    }
+
+    .newsletter__input-submit-label{
+        background-color: get-color(primary);
+        color: get-color(secondary);
+        border: 0;
+        outline: none;
+        width: 50px;
+        height: 50px;
+        border-radius: 4px;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 400ms;
+        margin-top: 20px;
+        padding: 10px;
+        @include media(get-bp(desktop)){
+            margin-top: 0;
+            padding: 15px;
+            width: 60px;
+            height: 60px;
+            margin-left: 50px;
+        }
+        &:hover{
+            opacity: 0.8;
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+    .newsletter__input-submit{
+        display: none;
+    }
+
+    .newsletter__action-row{
+        display: flex;
+        .action-row__error-message{
+            color: get-color(danger);
+            text-transform: uppercase;
+            font-size: 10px;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        .action-row__loading{
+            animation: rotating 2s linear infinite;
+        }
+
+        @keyframes rotating {
+            from {
+              -ms-transform: rotate(0deg);
+              -moz-transform: rotate(0deg);
+              -webkit-transform: rotate(0deg);
+              -o-transform: rotate(0deg);
+              transform: rotate(0deg);
+            }
+            to {
+              -ms-transform: rotate(360deg);
+              -moz-transform: rotate(360deg);
+              -webkit-transform: rotate(360deg);
+              -o-transform: rotate(360deg);
+              transform: rotate(360deg);
+            }
+        }
+    }
+
+}
+
+.terms-checkbox{
+    display: none;
+}
+
+.terms-checkbox:checked + .terms-checkbox__label{
+    .terms-checkbox__fake-input{
+        background-color: get-color(primary);
+        color: #fff;
+        border-color: get-color(primary);
+    }
+}
+
+.terms-checkbox__label{
+    display: flex;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 20px;
+    .terms-checkbox-news {
+        margin-right: 8px;
+    }
+}
+
+.terms-checkbox__fake-input{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid get-color(grey);
+    font-size: 10px;
+    margin-right: 10px;
+    color: #fff;
+    @include media(get-bp(desktop)){
+        width: 14px;
+        height: 14px;
+    }
+}
+
+.terms-checkbox__label-text{
+    color: get-color(grey);
+    font-size: 12px;
+    font-weight: 500;
+    a{
+        color: get-color(primary);
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

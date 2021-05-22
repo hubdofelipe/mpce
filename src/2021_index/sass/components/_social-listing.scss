@@ -1,0 +1,15 @@
+.social-listing{
+    display: flex;
+    justify-content: center;
+    .social-listing__item{
+        display: block;
+        font-size: 20px;
+        color: get-color(primary);
+        margin-left: 5px;
+        margin-right: 5px;
+        transition: 400ms;
+        &:hover{
+            transform: rotate(10deg);
+        }
+    }
+}
