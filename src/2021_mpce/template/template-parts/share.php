@@ -1,22 +1,12 @@
 <ul class="list-style-remove social-listing">
     <li>
-        <a href="" class="social-listing__item">
+        <a target="_blank" href="" class="social-listing__item">
             <i class="fab fa-facebook"></i>
         </a>
     </li>
-    <li>
-        <a href="" class="social-listing__item">
-            <i class="fab fa-whatsapp"></i>
-        </a>
-    </li>
-    <li>
-        <a href="" class="social-listing__item">
-            <i class="fab fa-telegram-plane"></i>
-        </a>
-    </li>
-    <li>
-        <a href="" class="social-listing__item">
-            <i class="far fa-envelope"></i>
-        </a>
+    <li> 
+        <a target="_blank" href="https://fontawesome.com/icons/instagram?style=brands" class="social-listing__item" >
+            <i class="fab fa-instagram"></i>
+        </a> 
     </li>
 </ul>
