@@ -1,8 +1,10 @@
 .footer-container{
-    background-color: get-color(secondary);
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: get-color(light);
+    padding-top: 248px;
+    padding-bottom: 60px;
     color: get-color(light);
+    
+
     .container{
         display: flex;
         flex-direction: column;
@@ -42,7 +44,7 @@
 }
 
 .footer-container__social-column{
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 
     @include media (get-bp(desktop)){
         display: flex;
@@ -51,11 +53,14 @@
     }
     .social-listing{
         justify-content: flex-start;
+        li + li {
+            margin-left: 40px;
+        }
         .social-listing__item{
             color: get-color(dark);
             font-size: 32px;
             @include media (get-bp(desktop)){
-                font-size: 24px;
+                font-size: 40px;
             }
         }
     }
@@ -69,4 +74,12 @@
             transition: 400ms;
         }
     }
+}
+
+.footer-container__text{
+    color:get-color(dark);
+    width: 408px;
+    font-size: 24.05px;
+    text-align: center;
+    margin-bottom: 51px;
 }

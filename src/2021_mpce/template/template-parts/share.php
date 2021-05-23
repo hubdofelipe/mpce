@@ -1,7 +1,7 @@
 <ul class="list-style-remove social-listing">
     <li>
         <a target="_blank" href="" class="social-listing__item">
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook-square"></i>
         </a>
     </li>
     <li> 
