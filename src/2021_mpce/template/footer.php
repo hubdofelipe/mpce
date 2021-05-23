@@ -13,6 +13,8 @@
 </div>
 
 <script src="./assets/js/app.bundle.js"></script>
-
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

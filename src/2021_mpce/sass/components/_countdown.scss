@@ -1,0 +1,93 @@
+.countdown {
+    background-image: linear-gradient(to bottom, get-color(grey-light) 50%, get-color(black) 50%);
+    padding: 100px 0;
+
+    .countdown__container {
+        background-color: get-color(secondary);
+        width: 90%;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 50px 30px;
+        display: grid;
+        text-align: center;
+        color: get-color(light);
+    }
+
+    h2, h3, h4 {
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        margin-bottom: 0px;
+        font-size: 3rem;
+
+        @include media(get-bp(desktop)) {
+            margin-bottom: 10px;
+            font-size: 5rem;
+        }
+    }
+
+    h3 {
+        font-size: 2rem;
+
+        @include media(get-bp(tablet-portrait)) {
+            font-size: 3rem;
+        }
+
+        @include media(get-bp(desktop)) {
+            font-size: 4rem;
+        }
+    }
+
+    h4 {
+        font-size: 1.8rem;
+
+        @include media(get-bp(desktop)) {
+            font-size: 3rem;
+        }
+    }
+
+    p {
+        font-size: 1.8rem;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+
+    a {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.countdown__time {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    margin: 60px 0 50px;
+}
+
+.countdown__item {
+    background: get-color(black);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 10px;
+    
+    span {
+        font-size: 3rem;
+        font-weight: 900;
+
+        @include media(get-bp(tablet-portrait)) {
+            font-size: 5rem;
+            height: 58px;
+        }
+    }
+
+    small {
+        font-size: 1.2rem;
+        font-weight: 300;
+
+        @include media(get-bp(tablet-portrait)) {
+            font-size: 2rem;
+        }
+    }
+}

@@ -41,6 +41,8 @@
     <script src="https://kit.fontawesome.com/5d568d2bbd.js" crossorigin="anonymous"></script>
     <!-- Estilos -->
     <link rel="stylesheet" href="./assets/css/app.min.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 
 <body>

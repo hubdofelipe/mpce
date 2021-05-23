@@ -1,0 +1,39 @@
+.banner {
+    position: relative;
+    background: url(../images/bg-banner.png);
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    width: 100%;
+    padding: 30px 0 300px;
+    z-index: 1;
+
+    @include media(get-bp(desktop)) {
+        padding: 120px 0 200px;
+    }
+
+    img{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+
+        @include media(get-bp(tablet-portrait)) {
+            width: 65%;
+        }
+        @include media(get-bp(desktop)) {
+            width: 100%;
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+
+        @include media(get-bp(tablet-landscape)) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+    }
+}

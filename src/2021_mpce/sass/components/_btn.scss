@@ -1,0 +1,41 @@
+.btn {
+    background: get-color(green-light);
+    color: get-color(light);
+    width: max-content;
+    max-width: 100%;
+    font-weight: 300;
+    text-transform: uppercase;
+    align-items: center;
+    position: relative;
+    padding: 10px 65px 10px 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-style: italic;
+    transition: 300ms;
+
+    &:hover {
+        background: get-color(green-dark);
+
+        i {
+            background: get-color(green-light);
+            clip-path: polygon(100% 100%, 100% 0, 30% 0%, 0% 100%);
+        }
+    }
+
+    i {
+        background: get-color(green-dark);
+        height: 100%;
+        padding: 0 20px 0px 25px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        clip-path: polygon(36% 0, 100% 0, 100% 100%, 0% 100%);
+        transition: 300ms;
+    }
+}

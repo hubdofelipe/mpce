@@ -1,0 +1,76 @@
+.testimonials {
+    background: get-color(black);
+    padding-bottom: 70px;
+
+    h2 {
+        color: get-color(secondary);
+        text-align: center;
+        font-size: 5rem;
+        max-width: 430px;
+        margin: 0 auto 60px;
+    }
+
+    a {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .swiper-wrapper {
+        align-items: center !important;
+    }
+}
+
+.testimonials__slider {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    width: 80%;
+}
+
+.testimonials__slider img {
+    display: block;
+    width: max-content;
+    max-width: 90%;
+}
+
+.testimonials__controllers {
+    position: relative;
+}
+
+.testimonials__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.testimonials__prev, .testimonials__next {
+    background: none;
+    border: none;
+    outline: none;
+    color: get-color(light);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../images/arrow.png);
+    background-repeat: none;
+    width: 20px;
+    height: 40px;
+    background-size: cover;
+    transition: 300ms;
+    cursor: pointer;
+    z-index: 3;
+
+    &:hover {
+        opacity: 0.6;
+    }
+
+    &.swiper-button-disabled {
+        opacity: 0 !important;
+    }
+}
+
+.testimonials__next {
+    transform: translateY(-50%) rotate(180deg);
+    right: 0;
+    left: unset;
+}
