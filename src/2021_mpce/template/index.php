@@ -27,6 +27,35 @@
         <?php include 'template-parts/button.php'; ?>
     </section>
 
+    <section class="method">
+        <div class="container">
+            <h2>COMO FUNCIONA O MÉTODO?</h2> 
+            <p>No curso você vai aprender como fazer seu planejamento da forma correta, como estudar cada matéria, como revisar, como ler letra de lei, como resolver questões, como obter notas altas em simulados entre outras técnicas que me fizeram passar no concurso da PMCE em 2016. </p>
+            <p>No método Missão PMCE você vai encontrar conteúdos que alguns cursos não te ensinam e eu resolvi te passar, pois a minha intenção principal é ajudar você a realizar o seu sonho. </p>
+            
+            <div class="method__lists">
+                <ul>
+                    <li><i class="fas fa-check"></i> Mentoria em videoaulas + PDF</li>
+                    <li><i class="fas fa-check"></i> Método MISSÃO PMCE </li>
+                    <li><i class="fas fa-check"></i> Simulados Completos</li>
+                    <li><i class="fas fa-check"></i> Questões Gabaritadas e Comentadas</li>
+                    <li><i class="fas fa-check"></i> Atualização GRATUITA das aulas e materiais </li>
+                    <li><i class="fas fa-check"></i> Interação e tira-dúvidas pela plataforma </li>
+                    <li><i class="fas fa-check"></i> Motivacional </li>
+                </ul>
+                <ul>
+                    <li><i class="fas fa-check"></i> Explicação das principais atualizações do concurso em tempo real</li>
+                    <li><i class="fas fa-check"></i> Acompanhamento e orientação até a prova com todo suporte PÓS-EDITAL</li>
+                    <li><i class="fas fa-check"></i> Estratégias para DOMINAR A  BANCA ORGANIZADORA </li>
+                    <li><i class="fas fa-check"></i> Planilha de controle de desempenho de notas</li>
+                    <li><i class="fas fa-check"></i> Apostila de Legislação da PMCE em lei seca*</li>
+                </ul>
+            </div>
+        
+            <?php include 'template-parts/button.php'; ?>
+        </div>    
+    </section>
+    
     <section class="countdown">
         <div class="countdown__container" data-aos="flip-right">
             <h2>GARANTA HOJE</h2>
