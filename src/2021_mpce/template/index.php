@@ -79,6 +79,29 @@
             <?php include 'template-parts/button.php'; ?>
         </div>
     </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2> PERGUNTAS FREQUENTES:</h2>
+
+            <h3>> QUAL A DURAÇÃO DO CURSO?</h3>
+            <p>O acesso é ilimitado até a data da prova</p>
+
+            <h3>> O CURSO TEM AULAS DE DISCIPLINAS?</h3>
+            <p>As aulas são apenas de mentoria, sendo inclusos: materiais de apoio totalmente exclusivos e estratégicos, resumos e dicas de estudo visando aumentar seu rendimento por disciplina.</p>
+
+            <h3>> O valor do curso é único ou mensal?</h3>
+            <p>ÚNICO, pago apenas uma vez. (Boleto ou parcelado no cartão)</p>
+
+            <h3>> Há grupo de WhatsApp ou Telegram?</h3>
+            <p>
+            Não, pois a plataforma do curso é completa, sendo ela o principal meio para nossa comunicação </p>
+
+            <h3>> Quando as aulas e materiais são atualizados?</h3>
+            <p>Imediatamente após sairem novidades sobre o concurso.</p>
+        </div>
+    </section>
+
 </div>
 
 <?php include 'footer.php'; ?>

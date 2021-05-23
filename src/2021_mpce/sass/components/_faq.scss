@@ -1,0 +1,26 @@
+.faq{
+    background-color: get-color(black);
+    padding-top: 70px;
+    padding-bottom: 140px;
+    
+    h2 {
+        text-align: center;
+        color: get-color(secondary);
+        margin-bottom: 35px;
+    }
+
+    h3{
+        color: get-color(secondary);
+        font-size: 17px;
+    }
+    
+    p{
+        color: get-color(light);
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        max-width: 650px;
+    }
+}
