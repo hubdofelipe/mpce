@@ -1,5 +1,4 @@
 <div class="page-wrapper footer-wrapper">
-    <?php include 'template-parts/newsletter.php'?>
     <footer class="footer-container">
         <div class="container">
             <div class="footer-container__text">

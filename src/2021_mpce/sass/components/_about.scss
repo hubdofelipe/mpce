@@ -1,0 +1,110 @@
+.about {
+    background-image: url(../images/bg-about.jpg);
+    background-color: get-color(black);
+    background-position: top left;
+    background-size: cover;
+    padding-bottom: 80px;
+    margin-top: -15px;
+
+    @include media(get-bp(desktop)) {
+       padding-top: 40px;
+       background-position: bottom left;
+       padding-bottom: 40px;
+    }
+
+    .container {
+        @include media(get-bp(desktop)) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 20px;
+            max-width: 1100px;
+        }
+    }
+
+    img {
+        transform: translateY(-30%);
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+        max-width: 80%;
+
+        @include media(get-bp(desktop)) {
+            width: 100%;
+            max-width: unset;
+            transform: unset;
+        }
+    }
+
+    h2 {
+        color: get-color(light);
+        font-weight: bold;
+        font-size: 4rem;
+        margin-top: 50px;
+        width: max-content;
+        max-width: 100%;
+        margin: 0 auto 0;
+
+        @include media(get-bp(desktop)) {
+            font-size: 5rem;
+            margin: 60px 0 40px;
+        }
+    }
+
+    h3 {
+        color: get-color(secondary);
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        width: max-content;
+        max-width: 100%;
+        margin: 0 auto;
+
+        @include media(get-bp(desktop)) {
+            margin: unset;
+        }
+
+        b, strong {
+            font-size: 3rem;
+        }
+    }
+
+    hr {
+        width: 200px;
+        margin: 0;
+        border: 3px solid get-color(secondary);
+
+        @include media(get-bp(desktop)) {
+            width: 400px;
+            transform: translateX(-30%);
+        }
+
+        &:first-child {
+            margin-bottom: 40px;
+        }
+
+        &:last-child {
+            margin-top: 40px;
+        }
+    }
+
+    p {
+        color: get-color(light);
+        font-weight: 300;
+        letter-spacing: 0.1rem;
+
+        b {
+            font-weight: bold;
+        }
+    }
+}
+
+.about__desc {
+    max-width: 80%;
+    margin: 50px  auto 0;
+    
+    @include media(get-bp(desktop)) {
+        max-width: unset;
+    }
+}

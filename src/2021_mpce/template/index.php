@@ -131,6 +131,22 @@
         </div>
     </section>
 
+    <section class="about">
+        <div class="container">
+            <img class="about__image" src="assets/images/instrutora.png" alt="">
+            <div class="about__text">
+                <h2>SOBRE MIM</h2>
+                <h3>mentora <b>TALITA</b><br><b>ROCHA </b>soldado<br>da policia militar</h3>
+                <div class="about__desc">
+                    <hr>
+                    <p><b>Lorem Ipsum </b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+                    <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </div>
 
 <?php include 'footer.php'; ?>
